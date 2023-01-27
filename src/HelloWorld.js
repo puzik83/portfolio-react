@@ -3,7 +3,7 @@ import './index.css';
 
 const Portfolio = () => {
   return (
-      <h3>My Portfolio</h3>
+      <h1>My Portfolio</h1>
   );
 };
 
