@@ -1,0 +1,27 @@
+header {
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header-container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+h2 {
+    margin-bottom: 2.5rem;
+}
+
+.photo {
+    background: var(--color-primary);
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    width: 22rem;
+    height: 30rem;
+    border-radius: 11rem 11rem;
+    padding: 2rem 0 0 0;
+}

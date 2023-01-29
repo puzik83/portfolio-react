@@ -3,7 +3,10 @@ import './portfolio.css'
 
 const Portfolio = () => {
   return (
-    <div>Portfolio</div>
+    <section>
+      <h2>Portfolio</h2>
+    </section>
+    
   )
 }
 
