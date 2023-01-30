@@ -1,17 +1,27 @@
 import React from 'react'
 import './about.css'
+import Me from '../../../public/assets/Me.png'
+import CNT from '../../components/CNT'
 
 const About = () => {
   return (
-    <section>
-      <h2>
-        About me
-      </h2>
-            <p>I succesfully changed several spheres during my career being curious for knowledge and not afraid of trying new paths.
-            The decision to start learning IT and Front-End in particular is measured and logical.</p>
-            <p>I am good at planning, attentive to details. Being a person of Result I am nonetheless open-minded and great at teamwork.
-            As a Key Account manager possess extensive experience in negotiations. Challenging tasks have always been a great incentive for me.
-            My current career goal is to master Javascript programming skills and to become a valuable software development team member within a year.</p>
+    <section id='about'>
+      <h2>About me</h2>
+        <div className="container about-container">
+          <div className="about-me">
+            <div className="about-me-image">
+              <img src={ Me } alt="About image" />
+            </div>
+          </div>
+          <div className="about-content">
+          I succesfully changed several spheres during my career.
+          I am curious for knowledge and not afraid of trying new paths.
+          The decision to beecome a front-end Developer is measured and logical.
+          I am good at planning, attentive to details, open-minded and great at teamwork.
+          My current career goal is to become a valuable software development team member within a year.
+          <CNT />
+        </div>
+        </div>
     </section>
   )
 }

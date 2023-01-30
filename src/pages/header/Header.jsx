@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
-import CNT from '../../components/CNT.jsx'
-import Photo from '../../assets/Photo.png'
+import CNT from '../../components/CNT.js'
+import Photo from '../../../public/assets/Photo.png'
 
 const Header = () => {
   return (

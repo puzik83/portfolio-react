@@ -26,7 +26,7 @@ body {
     background-color: var(--main-color);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/az-subtle.png);
+    background-image: url(../public/assets/az-subtle.png);
 }
 
 .container {
