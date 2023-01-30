@@ -6,7 +6,7 @@ const CNT = () => {
     { className: 'CNT' },
     React.createElement(
       'a',
-      { href: '#contact', className: 'btn' },
+      { href: "#contact", className: 'btn' },
       'Contact me'
     )
   );

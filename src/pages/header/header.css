@@ -15,7 +15,7 @@ h2 {
 }
 
 .photo {
-    background: var(--color-primary);
+    background: var(--color-light);
     display:block;
     margin-left: auto;
     margin-right: auto;

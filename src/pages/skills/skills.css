@@ -1,7 +1,7 @@
 .skills-container {
     display: grid;
-    grid-template-columns: 45% 45%;
-    gap: 10%;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
 }
 
 .skills-item {
@@ -15,10 +15,30 @@
     );
     text-align:left;
     padding: 2rem;
+    border: 1px solid transparent;
+}
+
+
+.skills-item:hover {
+    border-color: var(--color-primary);
+    background: transparent;
 }
 
 .background {
     display: grid;
     grid-template-columns: 50% 50%;
+    line-height: 2.5;
+    text-align: center;
+}
 
+.education {
+    line-height:1.8;
+    text-align: justify;
+}
+
+@media screen and (max-width: 1024px) {
+    .skills-container {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
 }

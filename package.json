@@ -13,9 +13,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "crypto-browserify": "^3.12.0",
+    "emailjs": "^4.0.1",
+    "emailjs-com": "^3.2.0",
+    "os-browserify": "^0.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.7.1"
+    "react-icons": "^4.7.1",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.5"
   },
   "devDependencies": {
     "@babel/core": "^7.20.12",

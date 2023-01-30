@@ -1,7 +1,7 @@
-import React from 'react'
-import './about.css'
-import Me from '../../../public/assets/Me.png'
-import CNT from '../../components/CNT'
+import React from 'react';
+import './about.css';
+import Me from '../../../public/assets/Me.png';
+import CNT from '../../components/CNT';
 
 const About = () => {
   return (

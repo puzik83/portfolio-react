@@ -1,9 +1,13 @@
-import React from 'react'
-import './footer.css'
+import React from 'react';
+import './footer.css';
+import { AiFillGithub } from 'react-icons/ai';
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer>
+    <h2><AiFillGithub />My GitHub puzik83</h2>
+    <a href="https://github.com/puzik83">My GitHub puzik83</a>
+    </footer>
   )
 }
 

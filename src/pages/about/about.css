@@ -42,7 +42,8 @@
         transparent
     );
     text-align: justify;
-    padding: 1rem;
+    line-height: 2;
+    padding: 2rem;
 }
 
 @media screen and (max-width: 1024px) {
